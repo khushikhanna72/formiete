@@ -1,0 +1,120 @@
+
+.main
+{
+	background-color:orange;
+	font-size:50px;
+	text-align:center;
+	border-radius: 25px;
+}
+.main1 
+{
+	margin:40px;
+	color:black;
+	font-size:20px;
+	text-align:center;
+	background-color:#FA8072
+	
+	
+}
+.title
+{
+	font-size:20px;
+	color:orange;
+	
+}
+.info
+{
+	color:yellow;
+    
+
+}
+.bb
+{    
+    background-color:pink;
+	color:yellow;
+}
+.main2
+{
+	color:orange;
+}
+address
+{
+	background-color:pink;
+}
+button
+{
+	padding:5px 5px;
+	margin-top:20px;
+	border-radius:5px;
+	border:none;
+	background:pink;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:400px;
+	color:#fff;
+	width:25%;
+	border:none;
+}
+button:hover{
+	background:#008F11;
+}
+option:focus
+{
+	border:none;
+}
+option{
+	background:pink;
+	border:none;
+}
+input,select
+{
+	padding:5px;
+	margin-bottom:30px;
+	background:transparent;
+	border:none;
+	font-family:'Forum',cursive;
+	font-size:20px;
+	color:#eee;
+	border-bottom:1px solid #eee;
+}
+input::option
+{
+	color:pink;
+}
+::-webkit-input-placeholder { 
+  color: yellow;
+}
+
+:-ms-input-placeholder { 
+  color: yellow;
+}
+
+::placeholder {
+  color: yellow;
+}
+@media screen and (max-width:1050px)
+{
+	body
+	{
+		background-size:120%;
+	}
+	.main-block{
+		width:70%;
+		margin:230px 0 0;
+		
+	}
+}
+@media screen and (max-width:600px)
+{
+	body
+	{
+		background-size:150%;
+	}
+	.main-block{
+		width:75%;
+		margin:70px 0 0;
+		
+	}
+}
+
+
